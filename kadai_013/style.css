@@ -64,6 +64,7 @@ PC用のスタイル
 スマホ用のスタイル 
 ================ */
 @media screen and (max-width: 767px) {
+  
   body {
     min-width: 375px;
     margin: 0;
@@ -74,8 +75,11 @@ PC用のスタイル
   }
 
   #menu-sp {
+    display: block;
+    background-color: transparent;
     float: right;
     padding: 0;
+    border: none;
   }
 
   #nav-sp {
@@ -113,8 +117,12 @@ PC用のスタイル
 
   #nav-sp a:link,
   #nav-sp a:visited,
-  #nav-sp a:hover,
   #nav-sp a:active {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  #nav-sp a:hover {
     color: #ffffff;
     text-decoration: underline;
   }
