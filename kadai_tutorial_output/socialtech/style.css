@@ -391,8 +391,8 @@ header {
     border-bottom-color: #707070;
     border-style: solid;
     background-color: #fafafa;
-    width: 56px;
-    height: 400px;
+    width: 400px;
+    height: 56px;
   }
 
   /* お問い合わせ内容のテキストエリア */
@@ -610,12 +610,6 @@ header {
   padding: 20px 20px 0;
  }
 
- /* セクション */
- .product-section {
-   display: flex;
-   padding: 20px 20px 0;
- }
- 
  .product-section .product-section-img {
    width: 450px;
  }
@@ -1045,40 +1039,6 @@ header {
     .fivegoals-image-right,
     .fivegoals-image-left {
       align-self: center;
-    }
-
-    /* プロダクトページ */
-    #product-main {
-      height: 256px;
-      margin-top: 4%;
-      position: relative;
-    }
-
-    .product-main-inner {
-      height: 80%;
-      background-size: cover;
-    }
-
-    #product-title {
-      width: 136px;
-      height: 256px;
-      position: absolute;
-      top: -10%;
-    }
-
-    #product-title h1 {
-      left: 20px;
-      font-size: 40px;
-    }
-
-    #product-title h1 span {
-      font-size: 18px;
-    }
-
-    #product-title > p {
-      top: 180px;
-      left: 20px;
-      font-size: 13px;
     }
 
     /* プロダクトページ */
